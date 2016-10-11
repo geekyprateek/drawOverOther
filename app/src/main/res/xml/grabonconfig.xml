@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:accessibilityEventTypes="typeViewClicked|typeViewFocused|typeWindowsChanged|typeWindowStateChanged"
+    android:packageNames="in.amazon.mShop.android.shopping,com.grabOn,com.jabong.android,com.flipkart.android,com.myntra.android,net.one97.paytm,com.freecharge.android,com.facebook.katana,com.voodoo.android,com.MySmartPrice.MySmartPrice"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:notificationTimeout="100"
+    android:settingsActivity=""
+    android:canRetrieveWindowContent="true"
+/>

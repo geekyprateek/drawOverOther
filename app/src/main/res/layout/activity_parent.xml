@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tinderActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tap for Tinder Style Deal"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_above="@+id/accessActivity"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/accessActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Start Accessibility"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/callActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Call, Battery Logs Data"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/accessActivity"/>
+
+</RelativeLayout>
